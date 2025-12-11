@@ -1,22 +1,27 @@
+import { Home as HomeIcon, Search, Library } from "lucide-react"
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col bg-zinc-900">
       <div className="flex flex-1">
 
         <aside className="w-72 bg-zinc-950 p-6">
-          <nav>
-            <a href="">
+          <nav className="space-y-5">
+            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+              <HomeIcon />
               Home
             </a>
 
-            <a href="">
-              Search
+            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+              <Search /> 
+             Search
             </a>
             
-            <a href="">
+            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+              <Library />
               Your Libraries
             </a>
-            
+
           </nav>
         </aside>
 
