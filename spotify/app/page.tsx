@@ -1,39 +1,23 @@
-import { Home as HomeIcon, Search, Library } from "lucide-react"
+import { SideBar } from "./_components/sideBar";
+import { Navbar } from "./_components/navbar";
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col bg-zinc-900">
-      <div className="flex flex-1">
-
-        <aside className="w-72 bg-zinc-950 p-6">
-          <nav className="space-y-5">
-            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <HomeIcon />
-              Home
-            </a>
-
-            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <Search /> 
-             Search
-            </a>
-            
-            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
-              <Library />
-              Your Libraries
-            </a>
-
-          </nav>
-        </aside>
-
-        <main className="flex-1 p-6">
-          main
-
+    
+    <div className="h-screen flex flex-col">
+      
+      <div className="h-14 bg-zinc-950 p-6 flex items-center">
+        <Navbar />
+      </div>
+      
+      
+      
+      <div className="flex flex-1 p-2 gap-2">
+        <SideBar />
+        <main className="flex-1 p-6 bg-zinc-900 rounded-lg">
+          Main Content
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
-      </footer>
-
     </div>
   )
 }
