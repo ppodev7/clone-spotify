@@ -6,7 +6,7 @@ export default function Home() {
 
     <div className="h-screen flex flex-col">
 
-      <div className="h-14 bg-zinc-950 p-6 flex items-center">
+      <div className="h-14 bg-black p-6 flex items-center">
         <Navbar />
       </div>
 
@@ -17,15 +17,15 @@ export default function Home() {
         <main className="flex-1 p-6 bg-zinc-900 rounded-lg">
           <nav>
             <div className="flex gap-4 font-semibold">
-              <button className="bg-zinc-600 p-2 rounded-4xl px-4">
+              <button className="bg-zinc-800 p-2 rounded-4xl px-4">
                 Tudo
               </button>
 
-              <button className="bg-zinc-600 p-2 rounded-4xl px-5">
+              <button className="bg-zinc-800 p-2 rounded-4xl px-5">
                 Músicas
               </button>
 
-              <button className="bg-zinc-600 p-2 rounded-4xl px-5">
+              <button className="bg-zinc-800 p-2 rounded-4xl px-5">
                 Podcasts
               </button>
             </div>
