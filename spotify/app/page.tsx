@@ -1,12 +1,13 @@
 import { SideBar } from "./_components/sideBar";
 import { Navbar } from "./_components/navbar";
+import { Play } from 'lucide-react';
 
 export default function Home() {
   return (
 
-    <div className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col bg-black">
 
-      <div className="h-14 bg-black p-6 flex items-center">
+      <div className="h-14 p-6 flex items-center bg-black">
         <Navbar />
       </div>
 
@@ -14,22 +15,83 @@ export default function Home() {
 
       <div className="flex flex-1 p-2 gap-2">
         <SideBar />
-        <main className="flex-1 p-6 bg-zinc-900 rounded-lg">
-          <nav>
-            <div className="flex gap-4 font-semibold">
-              <button className="bg-zinc-800 p-2 rounded-4xl px-4">
+        <main className="flex-1 p-6 rounded-lg bg-linear-to-b from-zinc-800 via-zinc-900 to-black">
+          <nav className="flex">
+            <div className="flex gap-2 font-semibold p-2 px-8">
+              <button className="bg-white px-3 py-1 rounded-4xl text-zinc-900">
                 Tudo
               </button>
 
-              <button className="bg-zinc-800 p-2 rounded-4xl px-5">
+              <button className="bg-zinc-700 px-3 py-1 rounded-4xl hover:bg-zinc-600 transition-colors">
                 Músicas
               </button>
 
-              <button className="bg-zinc-800 p-2 rounded-4xl px-5">
+              <button className="bg-zinc-700 px-3 py-1 rounded-4xl hover:bg-zinc-600 transition-colors">
                 Podcasts
               </button>
             </div>
+
           </nav>
+
+          <div className="grid grid-cols-4 gap-4 mt-4 px-8">
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 1</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album2.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 2</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' className="w-6 qy" />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+                <img src="album3.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 3</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album4.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 4</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album5.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 5</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album6.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 6</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album7.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 7</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+            <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <img src="album8.jpg" width={64} height={64} alt="Playlist" />
+              <strong>Música 8</strong>
+              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
+                <Play fill='black' />
+              </button>
+            </a>
+          </div>
+
         </main>
       </div>
     </div>
