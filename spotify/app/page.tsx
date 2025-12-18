@@ -49,7 +49,7 @@ export default function Home() {
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-                <img src="album3.jpg" width={64} height={64} alt="Playlist" />
+              <img src="album3.jpg" width={64} height={64} alt="Playlist" />
               <strong>Música 3</strong>
               <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-400 text-black ml-auto mr-4 opacity-0 group-hover:opacity-100 transition-all">
                 <Play fill='black' />
@@ -90,6 +90,67 @@ export default function Home() {
                 <Play fill='black' />
               </button>
             </a>
+          </div>
+
+          <div className="flex py-12 font-semibold text-2xl mt-20">
+            Tocados Recentemente
+          </div>
+
+          <div className="flex gap-2">
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/frank.jpg" alt="Frank Ocean" className="w-full" />
+              <strong className="font-semibold">Blonde</strong>
+              <span className="text-sm text-zinc-400">Frank Ocean</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/nwa.jpg" alt="NWA" className="w-full" />
+              <strong className="font-semibold">NWA</strong>
+              <span className="text-sm text-zinc-400">NWA</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/sepultura.jpg" alt="Sepultura" className="w-full" />
+              <strong className="font-semibold">Sepultura</strong>
+              <span className="text-sm text-zinc-400">Sepultura</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/snot.jpg" alt="Snot" className="w-full" />
+              <strong className="font-semibold">Snot</strong>
+              <span className="text-sm text-zinc-400">Snot</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/slipknot.jpg" alt="Slipknot" className="w-full" />
+              <strong className="font-semibold">Slipknot</strong>
+              <span className="text-sm text-zinc-400">Slipknot</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/beatles.jpg" alt="Beatles" className="w-full" />
+              <strong className="font-semibold">Beatles</strong>
+              <span className="text-sm text-zinc-400">The Beatles</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/joji.jpg" alt="Joji" className="w-full" />
+              <strong className="font-semibold">Joji</strong>
+              <span className="text-sm text-zinc-400">Joji</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/carti.jpg" alt="Playboi Carti" className="w-full" />
+              <strong className="font-semibold">Playboi Carti</strong>
+              <span className="text-sm text-zinc-400">Playboi Carti</span>
+            </a>
+
+            <a href="#" className="bg-zinc-900 w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/sinatra.jpg" alt="Playboi Carti" className="w-full" />
+              <strong className="font-semibold">Frank Sinatra</strong>
+              <span className="text-sm text-zinc-400">Frank Sinatra</span>
+            </a>
+
           </div>
 
         </main>
