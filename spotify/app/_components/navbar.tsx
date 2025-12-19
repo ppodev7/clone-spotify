@@ -11,7 +11,7 @@ export function Navbar() {
             <img src="/logo.png" alt="logo_spotify" className="w-9" />
 
             <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-4">
-                <div className="flex items-center bg-zinc-800 p-3 rounded-full">
+                <div className="flex items-center bg-zinc-800 p-3 rounded-full hover:bg-zinc-600 cursor-pointer transition-colors">
                     <Home />
                 </div>
 

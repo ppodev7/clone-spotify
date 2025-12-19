@@ -94,7 +94,7 @@ export default function Home() {
 
 
 
-          <div className="flex py-12 font-semibold text-2xl mt-20">
+          <div className="flex py-8 font-semibold text-2xl mt-20">
             Tocados Recentemente
           </div>
 
@@ -181,6 +181,95 @@ export default function Home() {
             </a>
 
           </div>
+
+          <div className="flex py-8 font-semibold text-2xl mt-20">
+            Suas músicas estão com saudades
+          </div>
+
+          <div className="flex gap-4">
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/sombr.jpg" alt="Sombr" className="w-full" />
+              <strong className="font-semibold">Sombr</strong>
+              <span className="text-sm text-zinc-400">Sombr</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/brandao.jpg" alt="Brandao" className="w-full" />
+              <strong className="font-semibold">Brandao</strong>
+              <span className="text-sm text-zinc-400">Brandao</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/fazo.jpg" alt="yung fazo" className="w-full" />
+              <strong className="font-semibold">yung fazo</strong>
+              <span className="text-sm text-zinc-400">yung fazo</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/mac.jpg" alt="MacDemarco" className="w-full" />
+              <strong className="font-semibold">MacDemarco</strong>
+              <span className="text-sm text-zinc-400">MacDemarco</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="/album5.jpg" alt="Aphex Twin" className="w-full" />
+              <strong className="font-semibold">Aphex Twin</strong>
+              <span className="text-sm text-zinc-400">Aphex Twin</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="/album4.jpg" alt="Matue" className="w-full" />
+              <strong className="font-semibold">Matuê</strong>
+              <span className="text-sm text-zinc-400">Matuê</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="/album2.jpg" alt="Joji" className="w-full" />
+              <strong className="font-semibold">Nirvana</strong>
+              <span className="text-sm text-zinc-400">Nirvana</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="main/slipknot.jpg" alt="Playboi Carti" className="w-full" />
+              <strong className="font-semibold">Slipknot</strong>
+              <span className="text-sm text-zinc-400">Slipknot</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+            <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
+              <img src="/album8.jpg" alt="Playboi Carti" className="w-full" />
+              <strong className="font-semibold">Travis Scott</strong>
+              <span className="text-sm text-zinc-400">Travis Scott</span>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black absolute bottom-16 right-4 opacity-0 group-hover:opacity-100 transition-all hover:scale-105 shadow-lg">
+                <Play fill='black' />
+              </button>
+            </a>
+
+          </div>
+
 
         </main>
       </div>

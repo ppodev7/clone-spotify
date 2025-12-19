@@ -10,7 +10,7 @@ export function SideBar() {
           <a href="" className="font-semibold text-zinc-100">
             Sua Biblioteca
           </a>
-          <button className="flex items-center gap-2 text-sm font-semibold bg-zinc-800 px-4 rounded-4xl p-2 text-zinc-200 hover:text-zinc-100">
+          <button className="flex items-center gap-2 text-sm font-semibold bg-zinc-800 px-4 rounded-4xl p-2 text-zinc-200 hover:bg-zinc-600 transition-colors">
             <Plus />
             Criar
           </button>
