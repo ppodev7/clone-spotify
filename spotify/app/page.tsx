@@ -1,5 +1,6 @@
 import { SideBar } from "./_components/sideBar";
 import { Navbar } from "./_components/navbar";
+import { Footer } from "./_components/footer";
 import { Play } from 'lucide-react';
 
 export default function Home() {
@@ -7,13 +8,11 @@ export default function Home() {
 
     <div className="h-screen flex flex-col bg-black">
 
-      <div className="h-14 p-6 flex items-center bg-black">
+      <header className="h-14 p-6 flex items-center bg-black flex-shrink-0">
         <Navbar />
-      </div>
+      </header>
 
-
-
-      <div className="flex flex-1 p-2 gap-2 overflow-hidden">
+      <div className="flex flex-1 p-2 gap-2 overflow-hidden min-h-0">
         <SideBar />
         <main className="flex-1 p-6 rounded-lg bg-linear-to-b from-zinc-800 via-zinc-900 to-black overflow-y-auto overflow-x-hidden">
           <nav className="flex">
@@ -269,10 +268,10 @@ export default function Home() {
             </a>
 
           </div>
-
-
         </main>
       </div>
+      
+      <Footer />
     </div>
   )
 }
