@@ -5,7 +5,7 @@ import { List } from 'lucide-react'
 export function SideBar() {
   return (
     <aside className="w-96 bg-zinc-950 p-6 rounded-lg flex flex-col h-full overflow-hidden">
-      <nav className="space-y-5 flex-shrink-0">
+      <nav className="space-y-5">
         <div className="flex items-center justify-between">
           <a href="" className="font-semibold text-zinc-100">
             Sua Biblioteca
