@@ -4,8 +4,8 @@ import { List } from 'lucide-react'
 
 export function SideBar() {
   return (
-    <aside className="w-96 bg-zinc-950 p-6 rounded-lg items-center">
-      <nav className="space-y-5">
+    <aside className="w-96 bg-zinc-950 p-6 rounded-lg flex flex-col h-full overflow-hidden">
+      <nav className="space-y-5 flex-shrink-0">
         <div className="flex items-center justify-between">
           <a href="" className="font-semibold text-zinc-100">
             Sua Biblioteca
@@ -37,10 +37,9 @@ export function SideBar() {
             <List className='w-5 h-5 text-zinc-400 hover:text-zinc-100 cursor-pointer transition-colors' />
           </div>
         </div>
+      </nav>
 
-
-
-        <div className="mt-4 space-y-2">
+      <div className="mt-4 space-y-2 flex-1 overflow-y-auto overflow-x-hidden">
           <div className="group flex items-center gap-3 p-2 rounded-md cursor-pointer transition-colors hover:bg-zinc-800">
             <img
               src="album.jpg"
@@ -129,8 +128,7 @@ export function SideBar() {
             </span>
           </div>
 
-        </div>
-      </nav>
+      </div>
     </aside>
   )
 }

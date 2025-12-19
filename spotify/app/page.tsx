@@ -13,9 +13,9 @@ export default function Home() {
 
 
 
-      <div className="flex flex-1 p-2 gap-2">
+      <div className="flex flex-1 p-2 gap-2 overflow-hidden">
         <SideBar />
-        <main className="flex-1 p-6 rounded-lg bg-linear-to-b from-zinc-800 via-zinc-900 to-black">
+        <main className="flex-1 p-6 rounded-lg bg-linear-to-b from-zinc-800 via-zinc-900 to-black overflow-y-auto overflow-x-hidden">
           <nav className="flex">
             <div className="flex gap-2 font-semibold p-2 px-8">
               <button className="bg-white px-3 py-1 rounded-4xl text-zinc-900">
@@ -33,7 +33,7 @@ export default function Home() {
 
           </nav>
 
-          <div className="grid grid-cols-4 gap-4 mt-4 px-8">
+          <div className="grid grid-cols-4 gap-4 mt-4 px-8 overflow-x-hidden">
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <img src="album.jpg" width={64} height={64} alt="Playlist" />
               <strong>Música 1</strong>
@@ -98,7 +98,7 @@ export default function Home() {
             Tocados Recentemente
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 overflow-x-hidden">
             <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
               <img src="main/frank.jpg" alt="Frank Ocean" className="w-full" />
               <strong className="font-semibold">Blonde</strong>
@@ -186,7 +186,7 @@ export default function Home() {
             Suas músicas estão com saudades
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 overflow-x-hidden">
             <a href="#" className="bg-zinc-900 group relative w-40 p-3 rounded-md flex flex-col gap-2 hover:bg-zinc-800 transition-colors">
               <img src="main/sombr.jpg" alt="Sombr" className="w-full" />
               <strong className="font-semibold">Sombr</strong>
